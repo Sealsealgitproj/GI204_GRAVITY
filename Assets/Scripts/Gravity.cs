@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using JetBrains.Annotations;
 using UnityEngine;
 using UnityEngine.PlayerLoop;
 
@@ -8,6 +9,9 @@ public class Gravity : MonoBehaviour
     Rigidbody rb;
     private const float G = 0.06674f;
     public static List<Gravity> planetLists;
+
+    [SerializeField] private bool planet = false;
+    [SerializeField] private int orbitSpeed = 1000;
 
   
 
