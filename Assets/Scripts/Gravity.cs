@@ -7,7 +7,7 @@ using UnityEngine.PlayerLoop;
 public class Gravity : MonoBehaviour
 {
     Rigidbody rb;
-    private const float G = 0.06674f;
+    private const float G = 0.6674f;
     public static List<Gravity> planetLists;
 
     [SerializeField] private bool planet = false;
